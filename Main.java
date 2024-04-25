@@ -11,9 +11,9 @@ public class Main {
 
     public int romanToInt(String s) {
 
+        int sum = 0;
         //Creating a Hashmap to map each Roman numeral to its value
         Hashtable<Character, Integer> hashtable = new Hashtable<>();
-        int sum = 0;
 
         hashtable.put('I', 1);
         hashtable.put('V', 5);
