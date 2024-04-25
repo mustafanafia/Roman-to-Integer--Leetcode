@@ -23,7 +23,6 @@ public class Main {
         hashtable.put('D', 500);
         hashtable.put('M', 1000);
 
-
         //Result variable to hold the value of the last character
         int last_char_value = hashtable.get(s.charAt(s.length() - 1));
 
